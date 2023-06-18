@@ -1,0 +1,233 @@
+
+*{
+    margin: 0;padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo{
+    margin: 1cm;
+}
+#logo img{
+    width: 2cm;
+    height: 2cm;
+    
+} 
+body{
+    background-color: aliceblue;
+}
+#navbar{
+    display: flex;align-items: center;
+position: sticky;
+top: 0px;
+background-color: rgba(16, 15, 15, 0.9);opacity: 0.6;
+z-index: 999;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none    ;
+    align-items: center;
+    font-size: 0.5cm;
+
+}
+#navbar ul li a{
+    color: rgb(246, 243, 243);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Baloo 2', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Ubuntu', sans-serif;
+position: sticky;
+}
+#navbar::before
+{
+    content: "";
+    /* background-color: pink; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+#navbar ul li a:hover{
+    background-color:white;
+    color: black;    
+}
+.logo{
+    position: sticky;
+}
+.id{
+ display: flex;
+ flex-direction: column;
+ padding: 50px 200px;
+ justify-content: center;
+ align-items: center;
+ color:rgb(248, 245, 246);
+ font-family: 'Baloo 2', cursive;
+ font-family: 'Edu TAS Beginner', cursive;
+ 
+ 
+}
+.id p{
+    font-size: 1.8rem;padding: 9px 0px;
+}
+.id::before{
+    content: "";
+    position: absolute;
+    background: url('https://st3.depositphotos.com/10932768/35864/i/450/depositphotos_358642934-stock-photo-stir-fried-ice-cream-rolls.jpg');
+   
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    opacity: 0.9;
+   
+
+}
+/* .ff{ */
+    /* height: 713px; */
+/* } */
+.primary
+{
+    font-size: 2.8rem;
+    padding: 12px;
+    text-align: center;
+    
+    /* font-family: 'Edu TAS Beginner', cursive; */
+/* font-family: 'Nunito Sans', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif0; */
+font-family: 'Baloo 2', cursive;
+ font-family: 'Edu TAS Beginner', cursive;
+}
+.primaryy{
+    font-size: 2.8rem;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+ font-family: 'Edu TAS Beginner', cursive;
+ background-color: aliceblue;
+    
+}
+.btn{
+    padding: 9px;
+    border: 2px solid white;
+    background-color: pink;
+    margin: 9px;
+    border-radius: 9px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(4, 3, 3, 0.067);
+}
+.second{
+font-size: 1.5rem;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+padding: 9px;
+}
+.oof{
+    display: flex; background-color: aliceblue; justify-content: center;align-items: center;
+}
+#services{
+    display: flex;flex-direction: column;
+    border: 3px solid black;justify-content: center;align-items: center;margin: 65px;
+    width: 9cm;padding: 23px;border-radius: 13px;background-color:antiquewhite;
+}
+
+#services img{
+    height: 5cm;display: block;width: 6cm;
+    margin: auto; padding: 13px;
+}
+#services p{
+    padding: 13px;
+    font-family: 'Baloo 2', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-size: 1.3rem;
+
+}
+#client::before
+{
+    content: "";
+    position: absolute;
+    background: url(https://thumbs.dreamstime.com/b/summer-ice-cream-buffet-selection-flavors-dessert-toppings-overhead-view-top-border-rustic-white-wood-banner-221656538.jpg);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;position: relative;
+}
+.clients img{
+    height: 8cm;
+}
+#client{
+    height: 29rem;
+}
+.item{
+    padding: 23px;margin: 23px;background-color: black;
+    border: 3px solid rgb(11, 11, 11);
+    border-radius: 13px;
+}
+#item img{
+    width: 9cm;
+}
+.connect{
+    position: relative;
+    height: 12cm; padding-bottom: 34px; margin-bottom: 34px;width: 100%;
+}
+.connect::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url(https://cdn.searchenginejournal.com/wp-content/uploads/2018/06/best-contact-us-pages-1520x800.png) ;
+    background-size: cover;
+}
+.g{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: white;
+    
+}
+#contact{
+    width: 100%;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 34px;
+}
+#contact textarea, #contact input{
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+#contact textarea{
+    
+}
+#contact form{
+   width: 40%; 
+
+}
+#contact label{
+    font-size: 1.3rem;
+    font-family: sans-serif
+}

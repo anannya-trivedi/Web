@@ -1,0 +1,45 @@
+/* navigation */
+.navbar{
+    flex-direction: column;padding-left: 4px;padding-bottom: 9px;
+}
+.items a{
+    font-size: 0.8rem;
+}
+.id{
+    height: 212px;
+}
+.id::before{
+    height: 704px;
+}
+.id p{
+    font-size: 1.1rem;width: 19rem;
+}
+.primary{
+    font-size: 1.5rem;
+}
+.id h1{
+    width: 9rem;
+}
+
+.oof{
+    flex-direction: column;
+}
+body{
+    /* /* background-color: red; */}
+#client{
+    flex-wrap: wrap;
+}
+.btn{
+    font-size: 1rem;
+    padding: 6px;
+}
+#client img{
+    width: 56px;height: 56px;
+}
+.item{
+    margin: 23px 3px;
+    border: none;
+}
+#contact form{
+    width: 60%;
+}
